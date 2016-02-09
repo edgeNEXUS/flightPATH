@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Check server response codes for 404 and redirect to appropriate page"
+Name="Prevent 404 error codes"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="contain"
+Condition="response_code"
+Match=
+Sense="does"
+Value="404"
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="redirect"
+Target="https://$host$/404.html"
+Value=
