@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Add an X-Frame-Options response header (if not already there) to protect against so-called 'click-jacking'. DENY is more secure but may cause Java issues."
+Name="Client Security: Add X-Frame-Options Response Header"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="exist"
+Condition="response_header"
+Match="X-Frame-Options"
+Sense="doesnt"
+Value=
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="add_response_header"
+Target="X-Frame-Options"
+Value="SAMEORIGIN"

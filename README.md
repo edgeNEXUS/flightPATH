@@ -1,12 +1,18 @@
-# jetNEXUS flightPATH
-
 ![jetNEXUS Logo](/images/jetnexus.jpg)
 
-**Layer 7 flightPATH rules** 
+# jetNEXUS flightPATH
+
+**Layer 7 Rules** 
 
 [flightPATH](http://www.jetnexus.com/load-balancer/features/intelligent-traffic-management/) is a dynamic event-based rule engine developed by jetNEXUS to intelligently manipulate and route HTTP and HTTPS traffic. It is highly configurable and powerful, yet very easy to use.
 
 This repository contains a contemporary library of rules and examples that will meet most user's common (and not so common) needs. From complying with security requirements through selective compression to geolocation based customisation, we've got you covered.
+
+The rules you'll find here are packaged as basic jetPACKs which can be imported via the web interface's menu under: `Advanced > Configuration`.
+
+Rules can be modified to suit your needs under: `Library > flightPATH`.
+
+To assign rules to Virtual Services go to: `IP Services > IP Services > Virtual Services > flightPATH`.
 
 ### User Guide
 

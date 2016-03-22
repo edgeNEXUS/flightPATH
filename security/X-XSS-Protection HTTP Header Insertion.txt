@@ -1,0 +1,17 @@
+#!jetpack
+    
+[jetnexusdaemon-Path-16]
+Desc="Add an X-XSS-Protection response header (if not already there) to enable browser cross site scripting protections"
+Name="Client Security: Add X-XSS-Protection Response Header"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="exist"
+Condition="response_header"
+Match="X-XSS-Protection"
+Sense="doesnt"
+Value=
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="add_response_header"
+Target="X-XSS-Protection"
+Value="1; mode=block"
