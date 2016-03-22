@@ -1,6 +1,6 @@
 # jetNEXUS flightPATH
 
-![jetNexus Logo](images/jetnexus.svg)
+![jetnexus.svg](images/jetnexus.svg)
 
 **Layer 7 flightPATH rules** 
 
