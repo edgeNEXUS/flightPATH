@@ -12,7 +12,7 @@ The rules you'll find here are packaged as basic jetPACKs which can be imported 
 
 Rules can be modified to suit your needs under: `Library > flightPATH`.
 
-To assign rules to Virtual Services go to: `IP Services > IP Services > Virtual Services > flightPATH`.
+To assign rules to Virtual Services go to: `Services > IP Services > Virtual Services > flightPATH`.
 
 ### User Guide
 
