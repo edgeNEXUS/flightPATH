@@ -2,7 +2,7 @@
 
 # jetNEXUS flightPATH
 
-**Layer 7 Rules** 
+### Our Layer 7 Rules 
 
 [flightPATH](http://www.jetnexus.com/load-balancer/features/intelligent-traffic-management/) is a dynamic event-based rule engine developed by jetNEXUS to intelligently manipulate and route HTTP and HTTPS traffic. It is highly configurable and powerful, yet very easy to use.
 
