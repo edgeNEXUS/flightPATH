@@ -1,4 +1,4 @@
-![jetNEXUS Logo](/images/jetnexus.jpg)
+![jetNEXUS Logo](/jetnexus.jpg)
 
 # jetNEXUS flightPATH
 
