@@ -1,5 +1,9 @@
 ![jetNEXUS Logo](/jetnexus.jpg)
 
+## These Rules
+
+These rules are mostly focussed on providing for intelligent handling of web server errors and similar.
+
 ### Installation
 
 Click on the rule you want to install (above), then click **Raw** and then click **Save [Page] As...** and download the text file to a suitable location. 
