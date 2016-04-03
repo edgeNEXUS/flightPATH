@@ -6,7 +6,7 @@ These rules are mostly focussed on providing for intelligent handling of web ser
 
 ### Installation
 
-Click on the rule you want to install (above), then click **Raw** and then click **Save [Page] As...** and download the text file to a suitable location. 
+Click on the rule you want to install (above), then click **Raw** and then **Save [Page] As...** and download the text file to a suitable location. 
 
 Then, in the jetNEXUS GUI, you can browse to `Advanced > Configuration > Browse`, choose the rule you just downloaded and click on **Upload Config or jetPACK**.
 
