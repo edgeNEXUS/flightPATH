@@ -1,17 +1,17 @@
-    #!jetpack
-    
-    [jetnexusdaemon-Path-16]
-    Desc="Add a Strict-Transport-Security response header (if not already there) to ensure the client uses https:// for all hyperlinks."
-    Name="Client Security: Add Strict-Transport-Security Response Header"
+#!jetpack
 
-    [jetnexusdaemon-Path-16-Condition-1]
-    Check="exist"
-    Condition="response_header"
-    Match="Strict-Transport-Security"
-    Sense="doesnt"
-    Value=
-    
-    [jetnexusdaemon-Path-16-Function-1]
-    Action="add_response_header"
-    Target="Strict-Transport-Security"
-    Value="max-age=31536000 ; includeSubDomains"
+[jetnexusdaemon-Path-16]
+Desc="Add a Strict-Transport-Security response header (if not already there) to ensure the client uses https:// for all hyperlinks."
+Name="Client Security: Add Strict-Transport-Security Response Header"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="exist"
+Condition="response_header"
+Match="Strict-Transport-Security"
+Sense="doesnt"
+Value=
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="add_response_header"
+Target="Strict-Transport-Security"
+Value="max-age=31536000 ; includeSubDomains"
