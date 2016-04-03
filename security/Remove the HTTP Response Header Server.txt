@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Remove the HTTP response header Server (if found) to prevent information leakage."
+Name="Server Security: Remove the Server Response Header" 
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="exist"
+Condition="response_header"
+Match="Server"
+Sense="does"
+Value=
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="remove_response_header"
+Target="Server"
+Value=
