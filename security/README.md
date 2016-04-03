@@ -6,9 +6,11 @@ These rules are mostly focussed on providing security features for either client
 
 ### Installation
 
-Click on the rule you want to install (above), then click **Raw** and then **Save [Page] As...** and download the text file to a suitable location. 
+Clone this repository, then, in the jetNEXUS GUI, browse to `Advanced > Configuration > Browse`, select the folder you cloned to and the rule you want and click on **Upload Config or jetPACK**. 
 
-Then, in the jetNEXUS GUI, you can browse to `Advanced > Configuration > Browse`, choose the rule you just downloaded and click on **Upload Config or jetPACK**.
+If you'd rather not use Git then click on the rule you want to install (above), then click **Raw** and then **Save [Page] As...** and download the text file to a suitable location. 
+
+Then, in the jetNEXUS GUI, browse to `Advanced > Configuration > Browse`, choose the rule you downloaded and click on **Upload Config or jetPACK**.
 
 Rules can be modified to suit your needs under: `Library > flightPATH`.
 
