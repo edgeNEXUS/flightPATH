@@ -16,6 +16,14 @@ Rules can be modified to suit your needs under: `Library > flightPATH`.
 
 To assign rules to Virtual Services go to: `Services > IP Services > Virtual Services > flightPATH`.
 
+### Caution
+
+Most of these rules can be applied with little, if any, risk but in all cases you are advised to test thoroughly before deploying on any live site or service.
+
+You are strongly advised to do suitable research and customise the following according to the content of and assets served through any public website:
+
+- Any Content-Security-Policy HTTP Header Insertion rule
+
 ### User Guide
 
 You can find the full flightPATH user guide [here](http://www.jetnexus.com/usercentral/4-1-4/flightpath.html).
