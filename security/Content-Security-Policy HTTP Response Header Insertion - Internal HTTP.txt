@@ -14,4 +14,4 @@ Value=
 [jetnexusdaemon-Path-16-Function-1]
 Action="add_response_header"
 Target="Content-Security-Policy"
-Value="default-src 'self' data:; script-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self' data:; font-src 'self' data:"
+Value="default-src 'self' data:; script-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline' data:; font-src 'self' data:"

@@ -14,4 +14,4 @@ Value=
 [jetnexusdaemon-Path-16-Function-1]
 Action="add_response_header"
 Target="Strict-Transport-Security"
-Value="max-age=31536000 ; includeSubDomains"
+Value="max-age=31536000; includeSubDomains; preload"
