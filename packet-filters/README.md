@@ -2,7 +2,7 @@
 
 ## These Rules
 
-These rules are mostly focussed on providing for intelligent handling of web server errors and similar.
+These rules provide source IP address based packet filtering.
 
 ### Installation
 
@@ -12,9 +12,18 @@ If you'd rather not use Git then click on the rule you want to install (above), 
 
 Then, in the jetNEXUS GUI, browse to `Advanced > Configuration > Browse`, choose the rule you downloaded and click on **Upload Config or jetPACK**.
 
-Rules can be modified to suit your needs under: `Library > flightPATH`.
+Rules **must** be modified to suit your needs under: `Library > flightPATH`.
 
 To assign rules to Virtual Services go to: `Services > IP Services > Virtual Services > flightPATH`.
+
+### Address and Subnet Specification
+
+You'll need to tailor any of the rules here to your specific needs. In all cases IP addresses and/or subnets are specified in one or more conditions using regular expressions (regexs). Here are some examples to get you started;
+
+- A single IP address: 10\.11\.12\.99
+- An address range: 10\.11\.12.\*
+- A more specific address range: 10\.11\.12\.[100-200]
+- Multiple single addresses: 10\.11\.12\.99|192\.168\.50\.44
 
 ### Caution
 
