@@ -2,7 +2,11 @@
 
 ## These Rules
 
-These rules provide source IP address based packet filtering.
+These rules provide source IP address based packet filtering. They can be used in many ways including;
+
+- To deny known hostile or invalid IP addresses or address ranges (subnets) from accessing a site or service
+- Equally, to only allow permitted addresses or ranges to access a site (known customers or registered users for example)
+- To provide assurance that one environment cannot communicate with another (UAT servers talking to production ones for instance) or one customer/tenant to another
 
 ### Installation
 
