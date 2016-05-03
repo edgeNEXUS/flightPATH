@@ -24,10 +24,10 @@ To assign rules to Virtual Services go to: `Services > IP Services > Virtual Ser
 
 You'll need to tailor any of the rules here to your specific needs. In all cases IP addresses and/or subnets are specified in one or more conditions using regular expressions (regexs). Here are some examples to get you started;
 
-- A single IP address: 10\.11\.12\.99
-- An address range: 10\.11\.12.\*
-- A more specific address range: 10\.11\.12\.[100-200]
-- Multiple single addresses: 10\.11\.12\.99|192\.168\.50\.44
+- A single IP address: 10\\.11\\.12\\.99
+- An address range: 10\\.11\\.12.\\*
+- A more specific address range: 10\\.11\\.12\\.[100-200]
+- Multiple single addresses: 10\\.11\\.12\\.99|192\\.168\\.50\\.44
 
 ### Caution
 
