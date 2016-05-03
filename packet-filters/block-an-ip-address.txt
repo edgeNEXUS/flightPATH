@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-28]
+Desc="Block a specific IP network (range) from accessing this Virtual Service"
+Name="Site Security: Block an IP Address"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="match"
+Condition="source_ip"
+Match=
+Sense="does"
+Value="10\.11\.12\.\100"
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="drop"
+Target=
+Value=
