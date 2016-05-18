@@ -8,7 +8,7 @@ Name="Packet Filters: Block an IP Network"
 Check="match"
 Condition="source_ip"
 Match=
-Sense="does"
+Sense="doesnt"
 Value="^10\.11\.12\..*"
 
 [jetnexusdaemon-Path-16-Function-1]
