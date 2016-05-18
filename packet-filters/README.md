@@ -29,7 +29,7 @@ You'll need to tailor any of the rules here to your specific needs. In all cases
 - an address range: `^10\.11\.12\..*`
 - a more specific address range (anything between 10.11.12.100 and 200): `^10\.11\.12\.[1|2]00`
 - multiple single addresses: `^10\.11\.12\.99$|^192\.168\.50\.44$`
-- all loopback addresses: `^127\\.*`
+- all loopback addresses: `^127\.*`
 - all RFC1918 [https://tools.ietf.org/html/rfc1918] private addresses (which you should never see used on the Internet): `^10\..*|^172\.1[6-9]\..*|^172\.2[0-9]\..*|^172\.3[0-1]\..*|^192\.168\..*`
 
 Do note that the whole address must be matched, not just part of it. You should find this site very useful for checking what you've created: https://regex101.com/.
