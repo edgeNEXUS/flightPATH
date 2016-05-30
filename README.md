@@ -22,6 +22,14 @@ You can find the full flightPATH user guide [here](http://www.jetnexus.com/userc
 
 There are a number of useful tutorials available [here](http://www.jetnexus.com/load-balancer/resources/flightpath-tutorials/).
 
+### Related Blogs
+
+We've blogged in detail about many of these rules [here](http://blog.jetnexus.com/), in particular;
+
+- [Simplifying Security HTTP Headers with jetNEXUS Traffic Management: X-Content-Type-Options](http://blog.jetnexus.com/post/102d9q0/simplifying-security-http-headers-with-jetnexus-traffic-management-x-content-ty)
+- [A HTTP Security Header to Combat 'Clickjacking' – How to Improve your Site's Security with the X-Frame Options Header](http://blog.jetnexus.com/post/102davm/a-http-security-header-to-combat-clickjacking-how-to-improve-your-sites-sec)
+- [How to Secure HTTP Traffic and Protect Users with the HTTP Strict Transport Security Header](http://blog.jetnexus.com/post/102dceg/how-to-secure-http-traffic-and-protect-users-with-the-http-strict-transport-secu)
+
 ### Contributing
 
 We're always happy to receive contributions and pull requests.

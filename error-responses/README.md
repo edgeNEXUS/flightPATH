@@ -28,6 +28,10 @@ You can find the full flightPATH user guide [here](http://www.jetnexus.com/userc
 
 There are a number of useful tutorials available [here](http://www.jetnexus.com/load-balancer/resources/flightpath-tutorials/).
 
+### Related Blogs
+
+We've blogged in detail about many of these rules [here](http://blog.jetnexus.com/).
+
 ### Contributing
 
 We're always happy to receive contributions and pull requests.
