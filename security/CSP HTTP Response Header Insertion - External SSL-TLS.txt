@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Add a basic Content-Security-Policy response header (if not already there) to scripts, connections and CSS content can only be served from the local domain - where SSL/TLS IS deployed"
+Name="Client Security: Add Content-Security-Policy Response Header: External: SSL-TLS"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="exist"
+Condition="response_header"
+Match="Content-Security-Policy"
+Sense="doesnt"
+Value=
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="add_response_header"
+Target="Content-Security-Policy"
+Value="default-src 'self' data: https:; script-src 'unsafe-inline' data: https:; connect-src 'self' https:; img-src * 'self' data: https:; style-src 'self' 'unsafe-inline' data: https:; font-src * data: https:"
