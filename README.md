@@ -29,6 +29,8 @@ We've blogged in detail about many of these rules [here](http://blog.jetnexus.co
 - [Simplifying Security HTTP Headers with jetNEXUS Traffic Management: X-Content-Type-Options](http://blog.jetnexus.com/post/102d9q0/simplifying-security-http-headers-with-jetnexus-traffic-management-x-content-ty)
 - [A HTTP Security Header to Combat 'Clickjacking' – How to Improve your Site's Security with the X-Frame Options Header](http://blog.jetnexus.com/post/102davm/a-http-security-header-to-combat-clickjacking-how-to-improve-your-sites-sec)
 - [How to Secure HTTP Traffic and Protect Users with the HTTP Strict Transport Security Header](http://blog.jetnexus.com/post/102dceg/how-to-secure-http-traffic-and-protect-users-with-the-http-strict-transport-secu)
+- [Simple Content Security Policies to Defend Against XSS Attacks](http://blog.jetnexus.com/post/102dika/simple-content-security-policies-to-defend-against-xss-attacks)
+- [How to Use Load Balancing to Apply Security Policy with Packet Filters](http://blog.jetnexus.com/post/102dgeo/how-to-use-load-balancing-to-apply-security-policy-with-packet-filters)
 
 ### Contributing
 
