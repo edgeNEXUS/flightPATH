@@ -2,7 +2,7 @@
 
 ## These Rules
 
-These rules providing content insertion of useful and common code snippets (usually JavaScript) usually required on every page of a site.
+These rules provide content insertion of useful and common analytics code snippets (often JavaScript) usually required on every page of a site.
 
 ### Installation
 
