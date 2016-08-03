@@ -1,0 +1,15 @@
+[jetnexusdaemon-Path-16]
+Desc="Deny access to the site only to users located within Great Britain"
+Name="Deny Access Only to GB Based Users"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="equal"
+Condition="geolocation"
+Match=
+Sense="does"
+Value="GB"
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="drop"
+Target=
+Value=
