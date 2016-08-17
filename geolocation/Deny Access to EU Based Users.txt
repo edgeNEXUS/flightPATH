@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Deny access to the site only to users located within the European Union"
+Name="Deny Access Only to EU Based Users"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="equal"
+Condition="geolocation"
+Match=
+Sense="does"
+Value="EU"
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="drop"
+Target=
+Value=

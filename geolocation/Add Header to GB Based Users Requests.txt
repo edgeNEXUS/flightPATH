@@ -1,0 +1,17 @@
+#!jetpack
+
+[jetnexusdaemon-Path-16]
+Desc="Add a HTTP header to requests from users located within Great Britain"
+Name="Add Header to GB Based Users Requests.txt"
+
+[jetnexusdaemon-Path-16-Condition-1]
+Check="equal"
+Condition="geolocation"
+Match=
+Sense="does"
+Value="GB"
+
+[jetnexusdaemon-Path-16-Function-1]
+Action="add_request_header"
+Target="Country"
+Value="GB"

@@ -1,13 +1,15 @@
+#!jetpack
+
 [jetnexusdaemon-Path-16]
-Desc="Only permit access to the site to users located within Great Britain"
-Name="Only Permit Access to GB Based Users"
+Desc="Only permit access to the site to users located within the European Union"
+Name="Only Permit Access to EU Based Users"
 
 [jetnexusdaemon-Path-16-Condition-1]
 Check="equal"
 Condition="geolocation"
 Match=
 Sense="doesnt"
-Value="GB"
+Value="EU"
 
 [jetnexusdaemon-Path-16-Function-1]
 Action="drop"
