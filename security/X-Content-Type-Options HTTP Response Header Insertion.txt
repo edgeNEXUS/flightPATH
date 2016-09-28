@@ -1,8 +1,8 @@
 #!jetpack
 
 [jetnexusdaemon-Path-16]
-Desc="Add an X-Content-Type-Options response header (if not already there) to prevent browser MIME sniffing and so-called drive-by download attacks"
-Name="Client Security: Add X-Content-Type-Options Response Header"
+Desc="Add an X-Content-Type-Options HTTP response header (if not present) to prevent browser MIME sniffing and so-called drive-by download attacks"
+Name="Add an X-Content-Type-Options HTTP Response Header"
 
 [jetnexusdaemon-Path-16-Condition-1]
 Check="exist"

@@ -1,8 +1,8 @@
 #!jetpack
 
 [jetnexusdaemon-Path-16]
-Desc="Add a Strict-Transport-Security response header (if not already there) to ensure the client uses https:// for all hyperlinks."
-Name="Client Security: Add Strict-Transport-Security Response Header"
+Desc="Add a Strict-Transport-Security HTTP response header (if not present) to ensure the client uses HTTPS for all hyperlinks."
+Name="Add a Strict-Transport-Security HTTP Response Header"
 
 [jetnexusdaemon-Path-16-Condition-1]
 Check="exist"

@@ -1,8 +1,8 @@
 #!jetpack
 
 [jetnexusdaemon-Path-16]
-Desc="Add a basic Content-Security-Policy response header (if not already there) to ensure scripts, connections and CSS content can only be served from the local domain - where NO SSL/TLS is deployed"
-Name="Client Security: Add Content-Security-Policy Response Header: External: HTTP"
+Desc="Inserts a basic Content-Security-Policy response header (if not already there) to ensure scripts, connections and CSS content can only be served from the local domain - where NO SSL/TLS is deployed"
+Name="Client Security - Add Content-Security-Policy Response Header - External - HTTP"
 
 [jetnexusdaemon-Path-16-Condition-1]
 Check="exist"
